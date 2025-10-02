@@ -1,8 +1,6 @@
 [project]
 name = "private-tools"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
 authors = [
     { name = "José Albert Cruz Almaguer", email = "jalbertcruz@gmail.com" }
 ]
