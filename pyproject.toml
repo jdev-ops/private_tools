@@ -1,0 +1,54 @@
+[project]
+name = "private-tools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "José Albert Cruz Almaguer", email = "jalbertcruz@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dirs-navigator",
+    "dev-utilities",
+    "yt-dlp",
+    "eyed3",
+    "mutagen",
+    "podman-compose",
+    "python-slugify",
+    "pipenv",
+    "poetry",
+    "ansible",
+    "pre-commit-hooks",
+    "pre-commit",
+    "diffoscope",
+    "httpie",
+    "posting",
+    "s3cmd",
+    "awscli",
+    "sqlfluff",
+    "vulture",
+    "pyre-check",
+    "basedpyright",
+    "codespell",
+    "pytype",
+    "pylint",
+    "basedmypy",
+    "isort",
+    "yapf",
+    "jc",
+    "git-machete",
+#    "tomlkit",
+#    "weasyprint (~=65.1)",
+
+#    "psycopg2-binary", # For "barman",
+
+#    "displaycal",
+#    "qmk (==1.1.8)", # sudo apt install libhidapi-dev # sudo apt-get install libusb-dev
+
+]
+
+[tool.uv.sources]
+dirs-navigator = { path = "../../dirs-navigator", editable = true }
+dev-utilities = { path = "../../dev-utilities", editable = true }
+#barman = { path = "/home/z/src/devOps/08-devOps/dev-env/postgres/barman-3.15.0-py2.py3-none-any.whl"}
+
