@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = [
     { name = "José Albert Cruz Almaguer", email = "jalbertcruz@gmail.com" }
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 dependencies = [
     "dirs-navigator",
     "dev-utilities",
